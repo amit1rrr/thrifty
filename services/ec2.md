@@ -63,12 +63,13 @@ Use Spot Fleets
   </summary>
 
 ### Spot Fleets
-Spot instances are essentially excess capacity of AWS available at large discount (~90%) than on-demand rate. Spot instance price fluctuates based on demand & supply. One can set a bid amount the he/she is willing to spend on a spot instance. The catch is if the spot price exceeds your bid price then the instance is terminated with a 2 minute notice.
+[Spot instances](https://aws.amazon.com/ec2/spot/) are essentially excess capacity of AWS available at large discount (~90%) than on-demand rate. Spot instance price fluctuates based on demand & supply. One can set a bid amount the he/she is willing to spend on a spot instance. The catch is if the spot price exceeds your bid price then the instance is terminated with a 2 minute notice.
 
 ### Recommendations
-* Spinning up one off spot instance is useless as it can die anytime. Consider using Spot Fleets that try to maintain set number of spot instances.
+* Spinning up one off spot instance is useless as it can die anytime. Consider using [Spot Fleets](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html) that try to maintain set number of spot instances.
 * Only use this for stateless workloads.
 * It’s best to create a separate auto scaling group (ASG) consisting of only spot instances and hook it behind an Application Load Balancer (ALB) along with existing ASG comprising of RIs + on-demand instances.
+* Consider using [autospotting](https://github.com/cristim/autospotting) for few niceties [over](https://github.com/cristim/autospotting/blob/master/FAQ.md#how-does-autospotting-compare-to-the-the-spot-fleet-aws-offering) spot fleets.
 
 </details>
 <br>

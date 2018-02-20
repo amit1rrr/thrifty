@@ -7,8 +7,8 @@ Take a look at your monthly AWS bill. Pick services that are most expensive for 
 
 ## Supported AWS services
 * [EC2](services/ec2.md)
-* [RDS](services/rds.md)
 * [S3](services/s3.md)
+* [RDS](services/rds.md)
 
 
 ## Contribute

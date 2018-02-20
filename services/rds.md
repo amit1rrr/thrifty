@@ -24,7 +24,7 @@ Reserved Instances (RIs)
   </summary>
 
 ### Reserved Instances (RIs)
-You can get RIs for RDS the same way as EC2. All considerations and benefits of RIs apply.
+You can get RIs for RDS the [same way as EC2](ec2.md#use-reserved-instances-ris). All considerations and benefits of RIs apply.
 </details>
 <br>
 
@@ -35,7 +35,7 @@ Turn DB on/off with AWS Instance Scheduler
   </summary>
 
 ### Turn DB on/off with AWS Instance Scheduler
-You can specify start and stop timing for RDS instances the same way as EC2. This is useful for non production databases.
+You can specify start and stop timing for RDS instances the [same way as EC2](ec2.md#turn-machines-onoff-with-aws-instance-scheduler). This is useful for non production databases.
 </details>
 <br>
 
@@ -57,7 +57,7 @@ Keep provisioned storage in check
   </summary>
 
 ### Keep provisioned storage in check
-You can increase the storage with a click of a button. But decreasing RDS storage is not directly supported and the manual process is painful and will likely have some downtim
+You can increase the storage with a click of a button. But decreasing RDS storage is not directly supported and the manual process is painful and will likely have some downtime.
 </details>
 <br>
 
