@@ -1,5 +1,5 @@
 # thrifty
-AWS service offering is great but I’m not a big fan of their documentation or the console. With 100+ services, different configurations & tiers, it becomes really cumbersome to understand & optimize AWS cost. Pearls of wisdom like [this](https://segment.com/blog/the-million-dollar-eng-problem/) & [this](https://news.ycombinator.com/item?id=15587627) are spread all across the web.
+AWS service offering is great but I’m not a big fan of their documentation or the console. With 100+ services, their different configurations & tiers, it becomes really cumbersome to understand & optimize AWS cost. Pearls of wisdom like [this](https://segment.com/blog/the-million-dollar-eng-problem/) & [this](https://news.ycombinator.com/item?id=15587627) are spread all across the web.
 This is an attempt to consolidate AWS cost optimization tips & document them in easy to use, actionable format.
 
 ## How to use
