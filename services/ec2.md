@@ -38,7 +38,7 @@ If you manage at least ten ec2 instances & haven’t heard of RI then this is go
 
 * The difference between no upfront to full upfront is moderate (~7%). While the difference between partial upfront and full upfront is tiny (~2%). Best to at least pay partial upfront unless you are cash strapped.
 
-![ec2_RI_payment_options.png](../assets/ec2_RI_payment_options.png)
+![ec2_RI_payment_options.png](../assets/ec2_ri_payment_options.png)
 </details>
 <br>
 
