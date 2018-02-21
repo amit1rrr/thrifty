@@ -1,4 +1,5 @@
 # EC2
+Click to expand any section.
 ## Pricing
 <details>
   <summary>

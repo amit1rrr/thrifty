@@ -1,4 +1,5 @@
 # RDS
+Click to expand any section.
 
 ## Pricing
 <details>
